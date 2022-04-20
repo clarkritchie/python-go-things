@@ -1,12 +1,9 @@
 package main
 
-import "C"
-import "fmt"
-
-// func Add(x, y int) int {
-//     fmt.Printf("Go says: adding %v and %v\n", x, y)
-//     return x + y
-// }
+import (
+    "C"
+    "fmt"
+)
 
 //export Sieve
 func Sieve(n int) {
